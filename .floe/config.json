@@ -38,7 +38,7 @@
       "listDirection": "asc"
     }
   },
-  "sidebarMetaData": {
+  "sidebar": {
     "./floe/docs/welcome.md": {
       "title:": "Welcome",
       "icon": "code",
