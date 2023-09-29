@@ -18,7 +18,6 @@
         {
           "url": "docs/getting-started",
           "title": "Getting started",
-          "type": "stack",
           "pages": [],
           "orderBy": "date",
           "orderDirection": "asc"
