@@ -1,45 +1,36 @@
 {
   "$schema": "https://unpkg.com/@floe/schema/1.0-alpha.1/schema.json",
-  "tabs": [
-    {
-      "key": "changelog",
-      "title": "Changelog"
-    },
-    {
-      "key": "docs",
-      "title": "Docs"
-    }
-  ],
-  "structure": {
+  "directories": {
     "changelog": {
-      "groupTitle": "Changelog",
+      "title": "Changelog",
       "type": "list",
-      "pages": "./floe/changelog/*.md",
-      "listBy": "date",
-      "listDirection": "asc"
+      "isTab": true,
+      "icon": "...",
+      "pages": [],
+      "orderBy": "date",
+      "orderDirection": "asc"
     },
     "docs": {
-      "groupTitle": "Docs",
+      "title": "Docs",
       "type": "stack",
-      "pages": [
-        "./floe/docs/welcome.md",
-        {
-          "groupTitle": "Getting Started",
-          "type": "stack",
-          "pages": [
-            "./floe/docs/getting-started/usage.md",
-            "./floe/docs/getting-started/installation.md"
-          ],
-          "listBy": "fileOrder",
-          "listDirection": "asc"
-        }
-      ],
-      "listBy": "fileOrder",
-      "listDirection": "asc"
+      "isTab": true,
+      "icon": "...",
+      "pages": [],
+      "orderBy": "date",
+      "orderDirection": "asc"
+    },
+    "docs/getting-started": {
+      "title": "Getting Started",
+      "type": "stack",
+      "icon": "...",
+      "isTab": false,
+      "pages": [],
+      "orderBy": "date",
+      "orderDirection": "asc"
     }
   },
-  "sidebar": {
-    "./floe/docs/welcome.md": {
+  "pages": {
+    "docs/welcome.md": {
       "title:": "Welcome",
       "icon": "code",
       "iconStyle": "fill"
