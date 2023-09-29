@@ -5,7 +5,6 @@
       "title": "Changelog",
       "type": "list",
       "isTab": true,
-      "icon": "...",
       "pages": [],
       "orderBy": "date",
       "orderDirection": "asc"
@@ -14,7 +13,6 @@
       "title": "Docs",
       "type": "stack",
       "isTab": true,
-      "icon": "...",
       "pages": [],
       "orderBy": "date",
       "orderDirection": "asc"
@@ -22,7 +20,6 @@
     "docs/getting-started": {
       "title": "Getting Started",
       "type": "stack",
-      "icon": "...",
       "isTab": false,
       "pages": [],
       "orderBy": "date",
@@ -31,9 +28,7 @@
   },
   "pages": {
     "docs/welcome.md": {
-      "title:": "Welcome",
-      "icon": "code",
-      "iconStyle": "fill"
+      "title:": "Welcome"
     }
   }
 }
