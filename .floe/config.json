@@ -1,31 +1,33 @@
 {
   "$schema": "https://unpkg.com/@floe/schema/1.0-alpha.1/schema.json",
-  "directories": {
-    "changelog": {
+  "tabs": [
+    {
+      "url": "changelog",
       "title": "Changelog",
       "type": "list",
-      "isTab": true,
       "pages": [],
       "orderBy": "date",
       "orderDirection": "asc"
     },
-    "docs": {
+    {
+      "url": "docs",
       "title": "Docs",
       "type": "stack",
-      "isTab": true,
-      "pages": [],
-      "orderBy": "date",
-      "orderDirection": "asc"
-    },
-    "docs/getting-started": {
-      "title": "Getting Started",
-      "type": "stack",
-      "isTab": false,
-      "pages": [],
+      "pages": [
+        "docs/introduction.md",
+        {
+          "url": "docs/getting-started",
+          "title": "Getting started",
+          "type": "stack",
+          "pages": [],
+          "orderBy": "date",
+          "orderDirection": "asc"
+        }
+      ],
       "orderBy": "date",
       "orderDirection": "asc"
     }
-  },
+  ],
   "pages": {
     "docs/welcome.md": {
       "title:": "Welcome"
