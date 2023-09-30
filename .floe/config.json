@@ -4,27 +4,24 @@
     {
       "url": "changelog",
       "title": "Changelog",
-      "type": "list",
-      "pages": [],
-      "orderBy": "date",
-      "orderDirection": "asc"
+      "list": [],
+      "listBy": "date",
+      "listDirection": "asc"
     },
     {
       "url": "docs",
       "title": "Docs",
-      "type": "stack",
-      "pages": [
+      "stack": [
         "docs/introduction.md",
+        "docs/motivation.md",
         {
-          "url": "docs/getting-started",
           "title": "Getting started",
-          "pages": [],
-          "orderBy": "date",
-          "orderDirection": "asc"
+          "stack": [
+            "docs/getting-started/installation.md",
+            "docs/getting-started/usage.md"
+          ]
         }
-      ],
-      "orderBy": "date",
-      "orderDirection": "asc"
+      ]
     }
   ],
   "pages": {
