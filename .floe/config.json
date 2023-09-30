@@ -12,13 +12,13 @@
       "url": "docs",
       "title": "Docs",
       "stack": [
-        "docs/introduction.md",
-        "docs/motivation.md",
+        "docs/introduction",
+        "docs/motivation",
         {
           "title": "Getting started",
           "stack": [
-            "docs/getting-started/installation.md",
-            "docs/getting-started/usage.md"
+            "docs/getting-started/installation",
+            "docs/getting-started/usage"
           ]
         }
       ]
