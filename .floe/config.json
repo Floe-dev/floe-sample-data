@@ -19,7 +19,7 @@
           "docs/motivation",
           {
             "title": "Getting Started",
-            "stack": [
+            "pages": [
               "docs/getting-started/installation",
               "docs/getting-started/usage"
             ]
