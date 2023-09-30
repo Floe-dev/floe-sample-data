@@ -1,6 +1,6 @@
 {
   "$schema": "https://unpkg.com/@floe/schema/1.0-alpha.1/schema.json",
-  "tabs": [
+  "sections": [
     {
       "url": "changelog",
       "title": "Changelog",
