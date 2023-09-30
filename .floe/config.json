@@ -6,7 +6,7 @@
       "title": "Changelog",
       "list": {
         "orderBy": "date",
-        "direction": "desc",
+        "direction": "asc",
         "pagesDirectory": "changelog"
       }
     },
