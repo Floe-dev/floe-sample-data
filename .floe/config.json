@@ -21,7 +21,11 @@
             "title": "Getting Started",
             "pages": [
               "docs/getting-started/installation",
-              "docs/getting-started/usage"
+              "docs/getting-started/usage",
+              {
+                "title": "Next Steps",
+                "pages": ["docs/getting-started/nexy-steps/yolo"]
+              }
             ]
           }
         ]
