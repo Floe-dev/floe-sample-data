@@ -13,13 +13,13 @@
         {
           "title": "Introduction",
           "pageView": {
-            "page": "docs/introduction"
+            "path": "docs/introduction"
           }
         },
         {
           "title": "Motivation",
           "pageView": {
-            "page": "docs/motivation"
+            "path": "docs/motivation"
           }
         },
         {
@@ -28,13 +28,13 @@
             {
               "title": "Installation",
               "pageView": {
-                "page": "docs/getting-started/installation"
+                "path": "docs/getting-started/installation"
               }
             },
             {
               "title": "Usage",
               "pageView": {
-                "page": "docs/getting-started/usage"
+                "path": "docs/getting-started/usage"
               }
             }
           ]
