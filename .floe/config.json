@@ -12,22 +12,30 @@
       "pages": [
         {
           "title": "Introduction",
-          "pageView": "docs/introduction"
+          "pageView": {
+            "page": "docs/introduction"
+          }
         },
         {
           "title": "Motivation",
-          "pageView": "docs/motivation"
+          "pageView": {
+            "page": "docs/motivation"
+          }
         },
         {
           "title": "Getting Started",
           "pages": [
             {
               "title": "Installation",
-              "pageView": "docs/getting-started/installation"
+              "pageView": {
+                "page": "docs/getting-started/installation"
+              }
             },
             {
               "title": "Usage",
-              "pageView": "docs/getting-started/usage"
+              "pageView": {
+                "page": "docs/getting-started/usage"
+              }
             }
           ]
         }
