@@ -17,6 +17,28 @@
           }
         }
       ]
+    },
+    {
+      "title": "Wiki",
+      "pages": [
+        {
+          "title": "Sample",
+          "pageView": {
+            "path": "wiki/sample"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Changelog",
+      "pages": [
+        {
+          "title": "Sample",
+          "pageView": {
+            "path": "changelog/sample"
+          }
+        }
+      ]
     }
   ]
 }
