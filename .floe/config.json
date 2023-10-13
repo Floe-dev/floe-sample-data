@@ -17,39 +17,6 @@
           }
         }
       ]
-    },
-    {
-      "title": "Wiki",
-      "pages": [
-        {
-          "title": "Sample",
-          "pageView": {
-            "path": "wiki/sample"
-          }
-        }
-      ]
-    },
-    {
-      "title": "Blog",
-      "pages": [
-        {
-          "title": "Sample",
-          "pageView": {
-            "path": "blog/sample"
-          }
-        }
-      ]
-    },
-    {
-      "title": "Changelog",
-      "pages": [
-        {
-          "title": "Sample",
-          "pageView": {
-            "path": "changelog/sample"
-          }
-        }
-      ]
     }
   ]
 }
