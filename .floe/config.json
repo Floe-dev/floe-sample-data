@@ -1,0 +1,44 @@
+{
+  "$schema": "https://unpkg.com/@floe/config@1.0.0-alpha.0/schema.json",
+  "sections": [
+    {
+      "title": "Docs",
+      "pages": [
+        {
+          "title": "Index",
+          "pageView": {
+            "path": "docs/index"
+          }
+        },
+        {
+          "title": "Getting-started",
+          "pageView": {
+            "path": "docs/getting-started"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Wiki",
+      "pages": [
+        {
+          "title": "Sample",
+          "pageView": {
+            "path": "wiki/sample"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Changelog",
+      "pages": [
+        {
+          "title": "Sample",
+          "pageView": {
+            "path": "changelog/sample"
+          }
+        }
+      ]
+    }
+  ]
+}
