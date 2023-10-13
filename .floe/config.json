@@ -30,6 +30,17 @@
       ]
     },
     {
+      "title": "Blog",
+      "pages": [
+        {
+          "title": "Sample",
+          "pageView": {
+            "path": "blog/sample"
+          }
+        }
+      ]
+    },
+    {
       "title": "Changelog",
       "pages": [
         {
