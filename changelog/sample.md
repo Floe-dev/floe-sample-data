@@ -1,6 +1,5 @@
 ---
 title: "My first changelog"
-date: 2023-08-31
 image: /image1.jpg
 ---
 
