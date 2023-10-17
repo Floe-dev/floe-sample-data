@@ -5,9 +5,9 @@
       "title": "Docs",
       "pages": [
         {
-          "title": "Index",
+          "title": "Introduction",
           "pageView": {
-            "path": "docs/index"
+            "path": "docs/introduction"
           }
         },
         {
