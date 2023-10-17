@@ -1,5 +1,5 @@
 {
-  "$schema": "https://unpkg.com/@floe/config@1.0.0-alpha.0/schema.json",
+  "$schema": "https://unpkg.com/@floe/config@1.0.0-alpha.14/schema.json",
   "sections": [
     {
       "title": "Docs",
@@ -31,14 +31,10 @@
     },
     {
       "title": "Changelog",
-      "pages": [
-        {
-          "title": "Sample",
-          "pageView": {
-            "path": "changelog/sample"
-          }
-        }
-      ]
+      "dataView": {
+        "path": "changelog",
+        "direction": "dsc"
+      }
     }
   ]
 }
